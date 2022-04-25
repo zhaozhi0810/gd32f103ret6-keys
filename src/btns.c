@@ -30,7 +30,7 @@ static BTN_INFO btn[KEY_MAX];
 
 static uint8_t btn_press_num = 0;
 
-#define BENKONG_KEY 1   //（请填 1-15）现在不知道是哪个，先假设为第一个吧！！！！！
+#define BENKONG_KEY 9   //（请填 1-15对应key1-key15）现在不知道是哪个，先假设为第一个吧！！！！！
 
 
 
@@ -60,7 +60,7 @@ static uint16_t gd_all_keys_state_get(void)
 	val = GET_BITS(t, 0, 6)<<8;
 	t = gpio_input_port_get(GPIOB);
 	val |= GET_BITS(t, 8, 15);
-	
+	//printf("val = %#x\n\r",val);
 	return ~val & 0x7fff;    //因为按下是低电平，松开是高电平，取一下反
 }
 
@@ -77,6 +77,7 @@ void btn_handle(void)
 	
 	if(btn_press_num)
 	{
+		MY_PRINTF("press btn_press_num = %d\n\r",btn_press_num);
 		if(btn_press_num != BENKONG_KEY)   //本控按键不上报
 		{		
 			if(btn[btn_press_num-1].reportEn == 1)
@@ -86,7 +87,7 @@ void btn_handle(void)
 				//只要按键改变了，就要通知cpu！！！！！！
 				send_btn_change_to_cpu(btn_press_num, btn[btn_press_num-1].value);  //按键编码1-15，0表示松开，非0表示按下
 				printf("key %d by %s\n",btn_press_num,btn[btn_press_num-1].value?"press":"release");
-				//			send_btn_change_to_cpu(btn[btn_press_num-1].code,btn[btn_press_num-1].value?1:0);
+				//send_btn_change_to_cpu(btn[btn_press_num-1].code,btn[btn_press_num-1].value?1:0);
 			}
 		}
 		btn_press_num = 0;    //处理结束后清零
@@ -125,6 +126,7 @@ void btns_scan(void) // 10ms 调用一次
 					btn[i].reportEn = 1;   //按下有效
 					btn_press_num = i+1;    //记录被按下的按键 1-18，加1的原因是去掉0
 				}
+				printf("press btn_press_num = %d\n\r",btn_press_num);
 			}
 		}
 		else //松开的

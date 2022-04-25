@@ -6,6 +6,7 @@
 #include "stdio.h"
 
 
+const char* g_build_time_str = "Buildtime :"__DATE__" "__TIME__;   //获得编译时间
 /*
 	2022-03-17 设置系统时钟为8M，没有倍频了！！！
 	
@@ -46,7 +47,7 @@ static void init_board(void)
 	systick_config();
 	
 	//3. 设置systick时钟源，为1M，即1us计时一次，1000次即1ms
-	systick_clksource_set(SYSTICK_CLKSOURCE_HCLK_DIV8); 	//用于按键消抖，或延时
+	//systick_clksource_set(SYSTICK_CLKSOURCE_HCLK_DIV8); 	//用于按键消抖，或延时
 	
 	//4. 配置按键为io查询模式
 	gd_all_keys_init(KEY_MODE_GPIO);
@@ -67,7 +68,9 @@ int main()
 {
 	init_board();
 	
-	printf("2022-03-17 init ok!!\n");
+	printf("%s\n\r", g_build_time_str);
+	printf("BoardInit done! 2022-04-24\n\r");
+
 	
 	while(1)
 	{

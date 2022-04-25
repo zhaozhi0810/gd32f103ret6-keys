@@ -39,49 +39,52 @@ OF SUCH DAMAGE.
 #include "gd32f10x.h"
 #include "systick.h"
 
-static uint32_t delay;
+//static uint32_t delay;
 
 /*!
     \brief      configure systick
     \param[in]  none
     \param[out] none
     \retval     none
-*/
+	*/  //改为10ms的时候，delay1ms就不可用了！！！！！
 void systick_config(void)
 {
     /* setup systick timer for 1000Hz interrupts */
-    if(SysTick_Config(SystemCoreClock / 10000U)){    //改为10ms中断一次
+    if(SysTick_Config(SystemCoreClock / 100U)){    //改为10ms中断一次  1000的时候是1ms
         /* capture error */
-        while (1){
+        while (1){   
         }
     }
     /* configure the systick handler priority */
     NVIC_SetPriority(SysTick_IRQn, 0x00U);
 }
 
-/*!
-    \brief      delay a time in milliseconds
-    \param[in]  count: count in milliseconds
-    \param[out] none
-    \retval     none
-*/
-void delay_1ms(uint32_t count)
-{
-    delay = count;
 
-    while(0U != delay){
-    }
-}
 
-/*!
-    \brief      delay decrement
-    \param[in]  none
-    \param[out] none
-    \retval     none
-*/
-void delay_decrement(void)
-{
-    if(0U != delay){
-        delay--;
-    }
-}
+//改为10ms的时候，delay1ms就不可用了！！！！！
+///*!
+//    \brief      delay a time in milliseconds
+//    \param[in]  count: count in milliseconds
+//    \param[out] none
+//    \retval     none
+//*/
+//void delay_1ms(uint32_t count)
+//{
+//    delay = count;
+
+//    while(0U != delay){
+//    }
+//}
+//改为10ms的时候，delay1ms就不可用了！！！！！
+///*!
+//    \brief      delay decrement
+//    \param[in]  none
+//    \param[out] none
+//    \retval     none
+//*/
+//void delay_decrement(void)
+//{
+//    if(0U != delay){
+//        delay--;
+//    }
+//}

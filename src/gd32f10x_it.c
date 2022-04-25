@@ -39,6 +39,7 @@ OF SUCH DAMAGE.
 #include "gd32f10x_it.h"
 #include "systick.h"
 #include "btns.h"
+#include "uart.h"
 
 void work_led_toggle(void);   //main.c中
 
@@ -141,6 +142,7 @@ void SysTick_Handler(void)
 	static uint8_t n;
     //delay_decrement();	
 	//if(++n%10 == 0)  //10ms 扫描一次
+	//if(++n%10 == 1)
 	btns_scan();
 	
 	if(++n%50 == 0)    //500ms 翻转一次
@@ -149,3 +151,22 @@ void SysTick_Handler(void)
 	if(n >= 250)
 		n = 0;
 }
+
+
+//串口0 用于与程序员进行调试通信使用
+void USART0_IRQHandler(void)
+{		
+	if(usart_interrupt_flag_get(USART0, USART_INT_FLAG_RBNE))
+	{
+		Com_Debug_Rne_Int_Handle();
+		usart_interrupt_flag_clear(USART0, USART_INT_FLAG_RBNE);   //清中断标志
+	}
+	else if(usart_interrupt_flag_get(USART0, USART_INT_FLAG_IDLE))  //空闲中断，表示一帧数据已结束
+	{
+		//解析命令，并处理。
+	//	Com_Debug_Idle_Int_Handle();
+		usart_interrupt_flag_clear(USART0, USART_INT_FLAG_IDLE);//清中断标志		
+	}
+}
+
+
