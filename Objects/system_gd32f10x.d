@@ -1,0 +1,17 @@
+.\objects\system_gd32f10x.o: RTE\Device\GD32F103RE\system_gd32f10x.c
+.\objects\system_gd32f10x.o: C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Include\gd32f10x.h
+.\objects\system_gd32f10x.o: C:\Users\dazhi\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm3.h
+.\objects\system_gd32f10x.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\system_gd32f10x.o: C:\Users\dazhi\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h
+.\objects\system_gd32f10x.o: C:\Users\dazhi\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h
+.\objects\system_gd32f10x.o: C:\Users\dazhi\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h
+.\objects\system_gd32f10x.o: C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Include\system_gd32f10x.h
+.\objects\system_gd32f10x.o: C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Include\gd32f10x_libopt.h
+.\objects\system_gd32f10x.o: .\RTE\_Target_1\RTE_Components.h
+.\objects\system_gd32f10x.o: C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Firmware\Peripherals\inc\gd32f10x_exti.h
+.\objects\system_gd32f10x.o: C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Include\gd32f10x.h
+.\objects\system_gd32f10x.o: C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Firmware\Peripherals\inc\gd32f10x_gpio.h
+.\objects\system_gd32f10x.o: C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Firmware\Peripherals\inc\gd32f10x_misc.h
+.\objects\system_gd32f10x.o: C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Firmware\Peripherals\inc\gd32f10x_pmu.h
+.\objects\system_gd32f10x.o: C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Firmware\Peripherals\inc\gd32f10x_rcu.h
+.\objects\system_gd32f10x.o: C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Firmware\Peripherals\inc\gd32f10x_usart.h

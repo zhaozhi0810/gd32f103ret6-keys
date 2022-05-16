@@ -7,7 +7,7 @@
 
 
 #define FRAME_HEAD 0xA5
-
+#define FRAME_HEAD2 0x5a
 
 
 #define  DEBUG_PRINTF    //用于输出一些出错信息

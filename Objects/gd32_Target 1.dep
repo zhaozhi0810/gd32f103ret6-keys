@@ -1,0 +1,213 @@
+Dependencies for Project 'gd32', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 5060750::V5.06 update 6 (build 750)::ARMCC
+F (.\src\main.c)(0x6264C1E2)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-IC:\Users\dazhi\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Firmware\Peripherals\inc-IC:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Include\gd32f10x.h)(0x5B62B116)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm3.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Include\system_gd32f10x.h)(0x5B62B116)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Include\gd32f10x_libopt.h)(0x595B0FDA)
+I (.\RTE\_Target_1\RTE_Components.h)(0x62329F13)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Firmware\Peripherals\inc\gd32f10x_exti.h)(0x5B62B116)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Firmware\Peripherals\inc\gd32f10x_gpio.h)(0x5B62B116)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Firmware\Peripherals\inc\gd32f10x_misc.h)(0x5B62B116)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Firmware\Peripherals\inc\gd32f10x_pmu.h)(0x5B62B116)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Firmware\Peripherals\inc\gd32f10x_rcu.h)(0x5B62B116)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Firmware\Peripherals\inc\gd32f10x_usart.h)(0x5B62B116)
+I (src\systick.h)(0x5B500050)
+I (src\gd32f103r_eval.h)(0x6264E394)
+I (src\btns.h)(0x6232EFB2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+F (.\src\systick.c)(0x6264C1FE)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-IC:\Users\dazhi\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Firmware\Peripherals\inc-IC:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\systick.o --omf_browse .\objects\systick.crf --depend .\objects\systick.d)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Include\gd32f10x.h)(0x5B62B116)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm3.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Include\system_gd32f10x.h)(0x5B62B116)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Include\gd32f10x_libopt.h)(0x595B0FDA)
+I (.\RTE\_Target_1\RTE_Components.h)(0x62329F13)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Firmware\Peripherals\inc\gd32f10x_exti.h)(0x5B62B116)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Firmware\Peripherals\inc\gd32f10x_gpio.h)(0x5B62B116)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Firmware\Peripherals\inc\gd32f10x_misc.h)(0x5B62B116)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Firmware\Peripherals\inc\gd32f10x_pmu.h)(0x5B62B116)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Firmware\Peripherals\inc\gd32f10x_rcu.h)(0x5B62B116)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Firmware\Peripherals\inc\gd32f10x_usart.h)(0x5B62B116)
+I (src\systick.h)(0x5B500050)
+F (.\src\gd32f10x_it.c)(0x6264E96E)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-IC:\Users\dazhi\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Firmware\Peripherals\inc-IC:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\gd32f10x_it.o --omf_browse .\objects\gd32f10x_it.crf --depend .\objects\gd32f10x_it.d)
+I (src\gd32f10x_it.h)(0x5B500051)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Include\gd32f10x.h)(0x5B62B116)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm3.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Include\system_gd32f10x.h)(0x5B62B116)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Include\gd32f10x_libopt.h)(0x595B0FDA)
+I (.\RTE\_Target_1\RTE_Components.h)(0x62329F13)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Firmware\Peripherals\inc\gd32f10x_exti.h)(0x5B62B116)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Firmware\Peripherals\inc\gd32f10x_gpio.h)(0x5B62B116)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Firmware\Peripherals\inc\gd32f10x_misc.h)(0x5B62B116)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Firmware\Peripherals\inc\gd32f10x_pmu.h)(0x5B62B116)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Firmware\Peripherals\inc\gd32f10x_rcu.h)(0x5B62B116)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Firmware\Peripherals\inc\gd32f10x_usart.h)(0x5B62B116)
+I (src\systick.h)(0x5B500050)
+I (src\btns.h)(0x6232EFB2)
+I (src\uart.h)(0x6281F0F5)
+I (src\gd32f103r_eval.h)(0x6264E394)
+F (.\src\btns.c)(0x6264E091)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-IC:\Users\dazhi\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Firmware\Peripherals\inc-IC:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\btns.o --omf_browse .\objects\btns.crf --depend .\objects\btns.d)
+I (src\btns.h)(0x6232EFB2)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Include\gd32f10x.h)(0x5B62B116)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm3.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Include\system_gd32f10x.h)(0x5B62B116)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Include\gd32f10x_libopt.h)(0x595B0FDA)
+I (.\RTE\_Target_1\RTE_Components.h)(0x62329F13)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Firmware\Peripherals\inc\gd32f10x_exti.h)(0x5B62B116)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Firmware\Peripherals\inc\gd32f10x_gpio.h)(0x5B62B116)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Firmware\Peripherals\inc\gd32f10x_misc.h)(0x5B62B116)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Firmware\Peripherals\inc\gd32f10x_pmu.h)(0x5B62B116)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Firmware\Peripherals\inc\gd32f10x_rcu.h)(0x5B62B116)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Firmware\Peripherals\inc\gd32f10x_usart.h)(0x5B62B116)
+I (src\systick.h)(0x5B500050)
+I (src\gd32f103r_eval.h)(0x6264E394)
+I (src\uart.h)(0x6281F0F5)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+F (.\src\uart.c)(0x6282045A)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-IC:\Users\dazhi\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Firmware\Peripherals\inc-IC:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\uart.o --omf_browse .\objects\uart.crf --depend .\objects\uart.d)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Include\gd32f10x.h)(0x5B62B116)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm3.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Include\system_gd32f10x.h)(0x5B62B116)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Include\gd32f10x_libopt.h)(0x595B0FDA)
+I (.\RTE\_Target_1\RTE_Components.h)(0x62329F13)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Firmware\Peripherals\inc\gd32f10x_exti.h)(0x5B62B116)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Firmware\Peripherals\inc\gd32f10x_gpio.h)(0x5B62B116)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Firmware\Peripherals\inc\gd32f10x_misc.h)(0x5B62B116)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Firmware\Peripherals\inc\gd32f10x_pmu.h)(0x5B62B116)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Firmware\Peripherals\inc\gd32f10x_rcu.h)(0x5B62B116)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Firmware\Peripherals\inc\gd32f10x_usart.h)(0x5B62B116)
+I (src\uart.h)(0x6281F0F5)
+I (src\gd32f103r_eval.h)(0x6264E394)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+F (RTE\Device\GD32F103RE\gd32f10x_exti.c)(0x5B62B116)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-IC:\Users\dazhi\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Firmware\Peripherals\inc-IC:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\gd32f10x_exti.o --omf_browse .\objects\gd32f10x_exti.crf --depend .\objects\gd32f10x_exti.d)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Firmware\Peripherals\inc\gd32f10x_exti.h)(0x5B62B116)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Include\gd32f10x.h)(0x5B62B116)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm3.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Include\system_gd32f10x.h)(0x5B62B116)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Include\gd32f10x_libopt.h)(0x595B0FDA)
+I (.\RTE\_Target_1\RTE_Components.h)(0x62329F13)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Firmware\Peripherals\inc\gd32f10x_gpio.h)(0x5B62B116)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Firmware\Peripherals\inc\gd32f10x_misc.h)(0x5B62B116)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Firmware\Peripherals\inc\gd32f10x_pmu.h)(0x5B62B116)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Firmware\Peripherals\inc\gd32f10x_rcu.h)(0x5B62B116)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Firmware\Peripherals\inc\gd32f10x_usart.h)(0x5B62B116)
+F (RTE\Device\GD32F103RE\gd32f10x_gpio.c)(0x5B62B114)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-IC:\Users\dazhi\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Firmware\Peripherals\inc-IC:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\gd32f10x_gpio.o --omf_browse .\objects\gd32f10x_gpio.crf --depend .\objects\gd32f10x_gpio.d)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Firmware\Peripherals\inc\gd32f10x_gpio.h)(0x5B62B116)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Include\gd32f10x.h)(0x5B62B116)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm3.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Include\system_gd32f10x.h)(0x5B62B116)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Include\gd32f10x_libopt.h)(0x595B0FDA)
+I (.\RTE\_Target_1\RTE_Components.h)(0x62329F13)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Firmware\Peripherals\inc\gd32f10x_exti.h)(0x5B62B116)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Firmware\Peripherals\inc\gd32f10x_misc.h)(0x5B62B116)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Firmware\Peripherals\inc\gd32f10x_pmu.h)(0x5B62B116)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Firmware\Peripherals\inc\gd32f10x_rcu.h)(0x5B62B116)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Firmware\Peripherals\inc\gd32f10x_usart.h)(0x5B62B116)
+F (RTE\Device\GD32F103RE\gd32f10x_misc.c)(0x5B62B114)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-IC:\Users\dazhi\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Firmware\Peripherals\inc-IC:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\gd32f10x_misc.o --omf_browse .\objects\gd32f10x_misc.crf --depend .\objects\gd32f10x_misc.d)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Firmware\Peripherals\inc\gd32f10x_misc.h)(0x5B62B116)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Include\gd32f10x.h)(0x5B62B116)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm3.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Include\system_gd32f10x.h)(0x5B62B116)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Include\gd32f10x_libopt.h)(0x595B0FDA)
+I (.\RTE\_Target_1\RTE_Components.h)(0x62329F13)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Firmware\Peripherals\inc\gd32f10x_exti.h)(0x5B62B116)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Firmware\Peripherals\inc\gd32f10x_gpio.h)(0x5B62B116)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Firmware\Peripherals\inc\gd32f10x_pmu.h)(0x5B62B116)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Firmware\Peripherals\inc\gd32f10x_rcu.h)(0x5B62B116)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Firmware\Peripherals\inc\gd32f10x_usart.h)(0x5B62B116)
+F (RTE\Device\GD32F103RE\gd32f10x_pmu.c)(0x5B62B116)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-IC:\Users\dazhi\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Firmware\Peripherals\inc-IC:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\gd32f10x_pmu.o --omf_browse .\objects\gd32f10x_pmu.crf --depend .\objects\gd32f10x_pmu.d)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Firmware\Peripherals\inc\gd32f10x_pmu.h)(0x5B62B116)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Include\gd32f10x.h)(0x5B62B116)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm3.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Include\system_gd32f10x.h)(0x5B62B116)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Include\gd32f10x_libopt.h)(0x595B0FDA)
+I (.\RTE\_Target_1\RTE_Components.h)(0x62329F13)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Firmware\Peripherals\inc\gd32f10x_exti.h)(0x5B62B116)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Firmware\Peripherals\inc\gd32f10x_gpio.h)(0x5B62B116)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Firmware\Peripherals\inc\gd32f10x_misc.h)(0x5B62B116)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Firmware\Peripherals\inc\gd32f10x_rcu.h)(0x5B62B116)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Firmware\Peripherals\inc\gd32f10x_usart.h)(0x5B62B116)
+F (RTE\Device\GD32F103RE\gd32f10x_rcu.c)(0x5B62B114)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-IC:\Users\dazhi\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Firmware\Peripherals\inc-IC:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\gd32f10x_rcu.o --omf_browse .\objects\gd32f10x_rcu.crf --depend .\objects\gd32f10x_rcu.d)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Firmware\Peripherals\inc\gd32f10x_rcu.h)(0x5B62B116)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Include\gd32f10x.h)(0x5B62B116)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm3.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Include\system_gd32f10x.h)(0x5B62B116)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Include\gd32f10x_libopt.h)(0x595B0FDA)
+I (.\RTE\_Target_1\RTE_Components.h)(0x62329F13)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Firmware\Peripherals\inc\gd32f10x_exti.h)(0x5B62B116)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Firmware\Peripherals\inc\gd32f10x_gpio.h)(0x5B62B116)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Firmware\Peripherals\inc\gd32f10x_misc.h)(0x5B62B116)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Firmware\Peripherals\inc\gd32f10x_pmu.h)(0x5B62B116)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Firmware\Peripherals\inc\gd32f10x_usart.h)(0x5B62B116)
+F (RTE\Device\GD32F103RE\gd32f10x_usart.c)(0x5B62B114)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-IC:\Users\dazhi\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Firmware\Peripherals\inc-IC:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\gd32f10x_usart.o --omf_browse .\objects\gd32f10x_usart.crf --depend .\objects\gd32f10x_usart.d)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Firmware\Peripherals\inc\gd32f10x_usart.h)(0x5B62B116)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Include\gd32f10x.h)(0x5B62B116)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm3.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Include\system_gd32f10x.h)(0x5B62B116)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Include\gd32f10x_libopt.h)(0x595B0FDA)
+I (.\RTE\_Target_1\RTE_Components.h)(0x62329F13)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Firmware\Peripherals\inc\gd32f10x_exti.h)(0x5B62B116)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Firmware\Peripherals\inc\gd32f10x_gpio.h)(0x5B62B116)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Firmware\Peripherals\inc\gd32f10x_misc.h)(0x5B62B116)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Firmware\Peripherals\inc\gd32f10x_pmu.h)(0x5B62B116)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Firmware\Peripherals\inc\gd32f10x_rcu.h)(0x5B62B116)
+F (RTE\Device\GD32F103RE\startup_gd32f10x_hd.s)(0x5B62B116)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_Target_1-IC:\Users\dazhi\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Firmware\Peripherals\inc-IC:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Include--pd "__UVISION_VERSION SETA 529" --pd "_RTE_ SETA 1" --pd "GD32F10X_HD SETA 1" --pd "USE_STDPERIPH_DRIVER SETA 1"--list .\listings\startup_gd32f10x_hd.lst --xref -o .\objects\startup_gd32f10x_hd.o --depend .\objects\startup_gd32f10x_hd.d)
+F (RTE\Device\GD32F103RE\system_gd32f10x.c)(0x62328DF3)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-IC:\Users\dazhi\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Firmware\Peripherals\inc-IC:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\system_gd32f10x.o --omf_browse .\objects\system_gd32f10x.crf --depend .\objects\system_gd32f10x.d)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Include\gd32f10x.h)(0x5B62B116)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm3.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Include\system_gd32f10x.h)(0x5B62B116)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Include\gd32f10x_libopt.h)(0x595B0FDA)
+I (.\RTE\_Target_1\RTE_Components.h)(0x62329F13)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Firmware\Peripherals\inc\gd32f10x_exti.h)(0x5B62B116)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Firmware\Peripherals\inc\gd32f10x_gpio.h)(0x5B62B116)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Firmware\Peripherals\inc\gd32f10x_misc.h)(0x5B62B116)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Firmware\Peripherals\inc\gd32f10x_pmu.h)(0x5B62B116)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Firmware\Peripherals\inc\gd32f10x_rcu.h)(0x5B62B116)
+I (C:\Users\dazhi\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Firmware\Peripherals\inc\gd32f10x_usart.h)(0x5B62B116)

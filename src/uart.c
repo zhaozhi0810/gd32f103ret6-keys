@@ -163,7 +163,7 @@ int32_t verify_data(uint8_t *data,uint8_t len)
 
 
 //发送按键的数据到cpu
-//whichkey 0xe8 - 0xf9
+//whichkey 1-15 表示键值
 //status 0 or 1 松开或者按下
 void send_btn_change_to_cpu(uint8_t whichkey,uint8_t status)
 {
@@ -172,13 +172,14 @@ void send_btn_change_to_cpu(uint8_t whichkey,uint8_t status)
 	if(!(uart_inited & 2))   //串口没初始化
 		return ;
 	
-	buf[0] = FRAME_HEAD;  //帧头	
-	buf[1] = whichkey;    //
-	buf[2] = status;    //
+	buf[0] = FRAME_HEAD;  //帧头0xA5	
+	buf[1] = FRAME_HEAD2;  //帧头0x5A
+	buf[2] = whichkey;    //1-15 表示键值
+	buf[3] = status;    //0 or 1 松开或者按下
 	//crc重新计算
-	buf[3] = buf[0] + buf[1] + buf[2];  //校验和，0,1,2相加.
+	buf[4] = buf[0] + buf[1] + buf[2]+ buf[3];  //校验和，0,1,2相加.
 	
-	Uart_Tx_String(TOCPU_COM_NUM,buf, 4);   //com_frame_t并没有包含数据头，所以加1个字节	
+	Uart_Tx_String(TOCPU_COM_NUM,buf, 5);   //com_frame_t并没有包含数据头，所以加1个字节	
 }
 
 
